@@ -4,5 +4,8 @@
     <Project Path="src/SharedDomain/SharedDomain.csproj" />
     <Project Path="src/SharedInfrastructure/SharedInfrastructure.csproj" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <File Path="Directory.Packages.props" />
+    <Project Path="tests/SharedDomain.Tests/SharedDomain.Tests.csproj" Id="33befa06-af64-4d76-9c0a-01c9cf698513" />
+  </Folder>
 </Solution>
