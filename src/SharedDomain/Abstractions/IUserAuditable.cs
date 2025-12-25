@@ -1,7 +1,7 @@
 ﻿namespace SharedDomain.Abstractions
 {
     /// <summary>
-    /// Defines a contract for tracking the identity of the users who created, 
+    /// Defines a contract for tracking the identity of the users who created,
     /// modified, or deleted the entity.
     /// </summary>
     public interface IUserAuditable

@@ -1,7 +1,7 @@
 ﻿namespace SharedDomain.Abstractions
 {
     /// <summary>
-    /// Provides a mechanism for "soft deleting" entities, allowing records to be 
+    /// Provides a mechanism for "soft deleting" entities, allowing records to be
     /// hidden from application logic without being physically removed from the database.
     /// </summary>
     public interface ISoftDeletable

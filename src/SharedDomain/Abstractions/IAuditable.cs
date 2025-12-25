@@ -13,7 +13,7 @@
         /// Gets or sets the date and time when the entity was last updated.
         /// </summary>
         /// <remarks>
-        /// This property should be <c>null</c> if the entity has never been modified 
+        /// This property should be <c>null</c> if the entity has never been modified
         /// after its initial creation.
         /// </remarks>
         DateTimeOffset? UpdatedAt { get; set; }

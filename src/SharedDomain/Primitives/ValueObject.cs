@@ -4,7 +4,7 @@
     /// Provides a base class for Value Objects in the domain.
     /// </summary>
     /// <remarks>
-    /// Value Objects do not have a unique identity (No Id) and are defined by the 
+    /// Value Objects do not have a unique identity (No Id) and are defined by the
     /// values of their properties. They are immutable and follow value-based equality.
     /// </remarks>
     public abstract class ValueObject

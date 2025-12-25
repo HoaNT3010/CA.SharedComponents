@@ -4,12 +4,12 @@ using SharedDomain.Events;
 namespace SharedDomain.Primitives
 {
     /// <summary>
-    /// Provides a base implementation for Aggregate Roots, extending the standard 
+    /// Provides a base implementation for Aggregate Roots, extending the standard
     /// entity with domain event management.
     /// </summary>
     /// <typeparam name="TKey">The type of the unique identifier.</typeparam>
     /// <remarks>
-    /// This implementation follows the <b>strict approach</b>, combining entity identity, 
+    /// This implementation follows the <b>strict approach</b>, combining entity identity,
     /// full audit metadata, and domain event dispatching capabilities into a single inheritance point.
     /// </remarks>
     public abstract class AggregateRoot<TKey> : Entity<TKey>, IAggregateRoot<TKey>
@@ -28,7 +28,7 @@ namespace SharedDomain.Primitives
         /// Clears the domain events collection.
         /// </summary>
         /// <remarks>
-        /// This should be called by the event dispatcher once the events have 
+        /// This should be called by the event dispatcher once the events have
         /// been successfully processed.
         /// </remarks>
         public void ClearDomainEvents()

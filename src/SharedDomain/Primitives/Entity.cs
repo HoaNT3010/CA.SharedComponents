@@ -3,12 +3,12 @@
 namespace SharedDomain.Primitives
 {
     /// <summary>
-    /// Provides a base implementation for all domain entities, including identity, 
+    /// Provides a base implementation for all domain entities, including identity,
     /// auditing, and soft-delete support.
     /// </summary>
     /// <typeparam name="TKey">The type of the unique identifier.</typeparam>
     /// <remarks>
-    /// Following a <b>strict approach</b>, this base class forces the inclusion of 
+    /// Following a <b>strict approach</b>, this base class forces the inclusion of
     /// <see cref="IFullAuditable"/> properties to ensure consistent tracking across the entire data model.
     /// </remarks>
     public abstract class Entity<TKey> : IEntity<TKey>

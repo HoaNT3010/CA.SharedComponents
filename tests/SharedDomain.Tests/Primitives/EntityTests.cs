@@ -5,9 +5,9 @@ namespace SharedDomain.Tests.Primitives
 {
     public class EntityTests
     {
-        private sealed class TestEntity : Entity<Guid> { }
-        private sealed class AnotherTestEntity : Entity<Guid> { }
-        private sealed class StringKeyEntity : Entity<string> { }
+        private sealed class TestEntity : Entity<Guid>;
+        private sealed class AnotherTestEntity : Entity<Guid>;
+        private sealed class StringKeyEntity : Entity<string>;
 
         [Fact]
         public void Equals_ShouldReturnFalse_WhenObjectIsNotEntity()

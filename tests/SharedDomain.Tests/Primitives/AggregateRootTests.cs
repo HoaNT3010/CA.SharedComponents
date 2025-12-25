@@ -10,7 +10,7 @@ namespace SharedDomain.Tests.Primitives
         {
             public void Raise(IDomainEvent domainEvent) => AddDomainEvent(domainEvent);
         }
-        private sealed class TestDomainEvent : DomainEvent { }
+        private sealed class TestDomainEvent : DomainEvent;
 
         [Fact]
         public void AddDomainEvent_ShouldAddEventToCollection()

@@ -5,10 +5,8 @@
     /// </summary>
     /// <typeparam name="TKey">The type used for the aggregate root's primary key.</typeparam>
     /// <remarks>
-    /// This interface follows the <b>strict architectural approach</b>, ensuring that all 
+    /// This interface follows the <b>strict architectural approach</b>, ensuring that all
     /// aggregate roots are identified, fully auditable, and capable of raising domain events.
     /// </remarks>
-    public interface IAggregateRoot<TKey> : IEntity<TKey>, IHasDomainEvents
-    {
-    }
+    public interface IAggregateRoot<TKey> : IEntity<TKey>, IHasDomainEvents;
 }

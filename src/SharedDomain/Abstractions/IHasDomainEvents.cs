@@ -6,8 +6,8 @@ namespace SharedDomain.Abstractions
     /// Defines a contract for entities that can generate and store domain events.
     /// </summary>
     /// <remarks>
-    /// Domain events represent significant occurrences within the domain that other parts 
-    /// of the system may need to react to. These events are typically dispatched 
+    /// Domain events represent significant occurrences within the domain that other parts
+    /// of the system may need to react to. These events are typically dispatched
     /// just before or after the entity is persisted to the database.
     /// </remarks>
     public interface IHasDomainEvents

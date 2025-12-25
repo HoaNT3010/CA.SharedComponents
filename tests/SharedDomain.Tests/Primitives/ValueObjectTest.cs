@@ -103,7 +103,6 @@ namespace SharedDomain.Tests.Primitives
         {
             // Arrange
             var money1 = new TestMoney(10, "USD");
-            TestMoney? money2 = null;
 
             // Assert
             money1.Equals(null).Should().BeFalse();
