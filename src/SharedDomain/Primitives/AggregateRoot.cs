@@ -24,13 +24,7 @@ namespace SharedDomain.Primitives
         {
             _domainEvents.Add(domainEvent);
         }
-        /// <summary>
-        /// Clears the domain events collection.
-        /// </summary>
-        /// <remarks>
-        /// This should be called by the event dispatcher once the events have
-        /// been successfully processed.
-        /// </remarks>
+        /// <inheritdoc/>
         public void ClearDomainEvents()
         {
             _domainEvents.Clear();
