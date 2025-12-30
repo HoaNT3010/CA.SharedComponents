@@ -19,5 +19,13 @@ namespace SharedDomain.Abstractions
         /// A collection of <see cref="IDomainEvent"/> objects.
         /// </value>
         IReadOnlyCollection<IDomainEvent> DomainEvents { get; }
+        /// <summary>
+        /// Clears the domain events collection.
+        /// </summary>
+        /// <remarks>
+        /// This should be called by the event dispatcher once the events have
+        /// been successfully processed.
+        /// </remarks>
+        void ClearDomainEvents();
     }
 }
