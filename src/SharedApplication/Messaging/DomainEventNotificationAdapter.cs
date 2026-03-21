@@ -20,7 +20,7 @@ namespace SharedApplication.Messaging
         /// Initializes a new instance of the <see cref="DomainEventNotificationAdapter{TEvent}"/> class.
         /// </summary>
         /// <param name="domainEvent">The domain event to wrap. Must not be <c>null</c>.</param>
-        private DomainEventNotificationAdapter(TEvent domainEvent)
+        public DomainEventNotificationAdapter(TEvent domainEvent)
         {
             DomainEvent = domainEvent ?? throw new ArgumentNullException(nameof(domainEvent));
         }
