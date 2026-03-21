@@ -6,6 +6,7 @@
   </Folder>
   <Folder Name="/tests/">
     <File Path="Directory.Packages.props" />
+    <Project Path="tests/SharedApplication.Tests/SharedApplication.Tests.csproj" Id="a425e4ed-fe18-42e4-a1a4-f46f77e8efa3" />
     <Project Path="tests/SharedDomain.Tests/SharedDomain.Tests.csproj" Id="33befa06-af64-4d76-9c0a-01c9cf698513" />
     <Project Path="tests/SharedInfrastructure.Tests/SharedInfrastructure.Tests.csproj" Id="25228dbe-f779-4799-8d83-11c395693ae7" />
   </Folder>
