@@ -10,8 +10,10 @@ on:
       - hotfix/*
       - chore/*
       - refactor/*
-      - docs/*
+      #- docs/*
       - ci/*
+      - build/*
+      - perf/*
 
   pull_request:
     branches:
