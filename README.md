@@ -63,10 +63,10 @@ This repository is intended to be split into multiple NuGet packages:
 
 ## Dependencies
 
-- .NET 10
-- MediatR
-- Ardalis.Specification
-- Entity Framework Core (via Ardalis.Specification)
+- [.NET 10](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview)
+- [MediatR](https://www.nuget.org/packages/MediatR)
+- [Ardalis.Specification](https://www.nuget.org/packages/Ardalis.Specification)
+- [Ardalis.Specification.EntityFrameworkCore](https://www.nuget.org/packages/Ardalis.Specification.EntityFrameworkCore)
 
 ## Contributing
 

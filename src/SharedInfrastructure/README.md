@@ -15,8 +15,7 @@ To reduce boilerplate when implementing:
 
 - CA.SharedComponents.Domain
 - CA.SharedComponents.Application
-- Ardalis.Specification.EntityFrameworkCore
-- Entity Framework Core
+- [Ardalis.Specification.EntityFrameworkCore](https://www.nuget.org/packages/Ardalis.Specification.EntityFrameworkCore)
 
 ## What’s Included
 

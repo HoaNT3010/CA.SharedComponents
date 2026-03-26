@@ -15,8 +15,8 @@ To provide reusable abstractions for:
 ## Dependencies
 
 - CA.SharedComponents.Domain
-- MediatR
-- Ardalis.Specification
+- [MediatR](https://www.nuget.org/packages/MediatR)
+- [Ardalis.Specification](https://www.nuget.org/packages/Ardalis.Specification)
 
 ## What’s Included
 
