@@ -2,7 +2,7 @@
 using Ardalis.Specification.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using SharedDomain.Abstractions;
-using SharedApplication.Persistence;
+using SharedApplication.Abstractions.Persistence;
 
 namespace SharedInfrastructure.Persistence
 {

@@ -1,4 +1,4 @@
-﻿namespace SharedApplication.Persistence
+﻿namespace SharedApplication.Abstractions.Persistence
 {
     /// <summary>
     /// Coordinates saving changes and transaction management for a set of repositories.
