@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using SharedApplication.Persistence;
+using SharedApplication.Abstractions.Persistence;
 
 namespace SharedInfrastructure.Persistence
 {

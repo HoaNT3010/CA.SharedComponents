@@ -1,7 +1,7 @@
 ﻿using Ardalis.Specification;
 using SharedDomain.Abstractions;
 
-namespace SharedApplication.Persistence
+namespace SharedApplication.Abstractions.Persistence
 {
     /// <summary>
     /// Defines read/query operations for an aggregate root repository.

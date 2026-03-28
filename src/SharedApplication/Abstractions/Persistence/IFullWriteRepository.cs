@@ -1,6 +1,6 @@
 ﻿using SharedDomain.Abstractions;
 
-namespace SharedApplication.Persistence
+namespace SharedApplication.Abstractions.Persistence
 {
     /// <summary>
     /// Represents a repository that aggregates all write operations for an aggregate root.
