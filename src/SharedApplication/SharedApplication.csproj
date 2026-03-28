@@ -1,18 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 
-  <ItemGroup>
-    <PackageReference Include="Ardalis.Specification" Version="9.3.1" />
-    <PackageReference Include="MediatR" Version="14.1.0" />
-  </ItemGroup>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageId>CA.SharedComponents.Application</PackageId>
+		<Version>0.1.0</Version>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SharedDomain\SharedDomain.csproj" />
-  </ItemGroup>
+		<Authors>Hoa Nguyen</Authors>
+		<Company>Hoa Nguyen</Company>
+		<Description>CQRS abstractions and application-layer building blocks designed to work with CA.SharedComponents.Domain in Clean Architecture and DDD-based .NET applications.</Description>
+		<PackageTags>cqrs mediatr clean-architecture application-layer ddd shared-components</PackageTags>
 
+		<RepositoryUrl>https://github.com/HoaNT3010/CA.SharedComponents</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/HoaNT3010/CA.SharedComponents</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.Specification" Version="9.3.1" />
+		<PackageReference Include="CA.SharedComponents.Domain" Version="0.1.0" />
+		<PackageReference Include="MediatR" Version="14.1.0" />
+	</ItemGroup>
+	
 </Project>
