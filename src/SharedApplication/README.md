@@ -14,7 +14,7 @@ To provide reusable abstractions for:
 
 ## Dependencies
 
-- CA.SharedComponents.Domain
+- [CA.SharedComponents.Domain](https://www.nuget.org/packages/CA.SharedComponents.Domain)
 - [MediatR](https://www.nuget.org/packages/MediatR)
 - [Ardalis.Specification](https://www.nuget.org/packages/Ardalis.Specification)
 

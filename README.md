@@ -51,13 +51,35 @@ Please checkout each project's README file for additional information.
 
 ## Packages
 
+### Packages Overview
+
 This repository is intended to be split into multiple NuGet packages:
 
-| Package                              | Description                              |
-| ------------------------------------ | ---------------------------------------- |
-| `CA.SharedComponents.Domain`         | Core domain primitives (dependency-free) |
-| `CA.SharedComponents.Application`    | CQRS + MediatR abstractions              |
-| `CA.SharedComponents.Infrastructure` | EF Core + persistence implementations    |
+| Package                                                                                                   | Description                              |
+| --------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [`CA.SharedComponents.Domain`](https://www.nuget.org/packages/CA.SharedComponents.Domain)                 | Core domain primitives (dependency-free) |
+| [`CA.SharedComponents.Application`](https://www.nuget.org/packages/CA.SharedComponents.Application)       | CQRS + MediatR abstractions              |
+| [`CA.SharedComponents.Infrastructure`](https://www.nuget.org/packages/CA.SharedComponents.Infrastructure) | EF Core + persistence implementations    |
+
+### Installing Packages
+
+CA.SharedComponents.Domain
+
+```
+dotnet add package CA.SharedComponents.Domain
+```
+
+CA.SharedComponents.Application
+
+```
+dotnet add package CA.SharedComponents.Application
+```
+
+CA.SharedComponents.Infrastructure
+
+```
+dotnet add package CA.SharedComponents.Infrastructure
+```
 
 > Consumers should only reference what they need.
 
