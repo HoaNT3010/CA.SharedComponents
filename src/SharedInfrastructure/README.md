@@ -13,8 +13,8 @@ To reduce boilerplate when implementing:
 
 ## Dependencies
 
-- CA.SharedComponents.Domain
-- CA.SharedComponents.Application
+- [CA.SharedComponents.Domain](https://www.nuget.org/packages/CA.SharedComponents.Domain)
+- [CA.SharedComponents.Application](https://www.nuget.org/packages/CA.SharedComponents.Application)
 - [Ardalis.Specification.EntityFrameworkCore](https://www.nuget.org/packages/Ardalis.Specification.EntityFrameworkCore)
 
 ## What’s Included
