@@ -39,7 +39,7 @@ jobs:
         # This packs all .csproj files and overrides their version with the Tag name
         # The #v syntax removes the 'v' prefix from the tag (v1.2.3 -> 1.2.3)
         run: |
-          dotnet pack **/*.csproj \
+          dotnet pack CA.SharedComponents.slnx \
           --configuration Release \
           --no-build \
           --output ./nupkg-dist \
