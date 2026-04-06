@@ -1,9 +1,37 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageId>CA.SharedComponents.Infrastructure</PackageId>
+		<Version>0.1.0</Version>
+
+		<Authors>Hoa Nguyen</Authors>
+		<Company>Hoa Nguyen</Company>
+		<Description>EF Core setup, generic repository, and Unit of Work implementations for applications using CA.SharedComponents.Domain and Application layers.</Description>
+		<PackageTags>efcore repository unit-of-work clean-architecture infrastructure-layer ddd persistence shared-components</PackageTags>
+
+		<RepositoryUrl>https://github.com/HoaNT3010/CA.SharedComponents</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/HoaNT3010/CA.SharedComponents</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="9.3.1" />
+		<PackageReference Include="CA.SharedComponents.Application" Version="0.1.0" />
+	</ItemGroup>
 
 </Project>

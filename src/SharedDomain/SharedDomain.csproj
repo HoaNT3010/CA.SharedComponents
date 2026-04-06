@@ -1,9 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<PackageId>CA.SharedComponents.Domain</PackageId>
+		<Version>0.1.0</Version>
+
+		<Authors>Hoa Nguyen</Authors>
+		<Company>Hoa Nguyen</Company>
+		<Description>DDD building blocks and shared kernel primitives for Clean Architecture projects.</Description>
+		<PackageTags>ddd clean-architecture shared-kernel result pattern</PackageTags>
+
+		<RepositoryUrl>https://github.com/HoaNT3010/CA.SharedComponents</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/HoaNT3010/CA.SharedComponents</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
 </Project>
